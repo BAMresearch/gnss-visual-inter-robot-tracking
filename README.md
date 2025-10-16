@@ -22,6 +22,15 @@ Some exemplary data acquired during the test run of the system is shown below.
 
 For more details, see the paper linked above and the files in this repo.
 
+# Test Run Demo Videos
+These videos show two test runs with different amounts of GNSS drift. The relative darkness and color shift is due to the fixed exposure settings of the camera which are optimized for the target illumination.
+
+Test run with small GNSS inaccuracies (2x speed):
+<video src="https://github.com/user-attachments/assets/0db5ddd8-eb01-4a5f-a65e-7d67b83bdf55" width="500"></video>
+
+Test run with large GNSS inaccuracies (2x speed), corresponds to data from paper:
+<video src="https://github.com/user-attachments/assets/3c99a29c-a41c-4225-bf6b-1deca380de7c" width="500"></video>
+
 # Files Overview
 Note: some of these files integrate into a broader system which is out of the scope of this paper and will be published later. They are therefore not self-contained, directly-runnable implementations.
 * `mavlink-router-pixhawk-lordv_1.conf`: configuration file for mavlink-router, sensor robot
